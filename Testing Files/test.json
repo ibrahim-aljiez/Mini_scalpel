@@ -1,0 +1,40 @@
+{
+"employees": [
+{
+"id": 101,
+"name": "Alice Johnson",
+"department": "Engineering",
+"email": "[alice.johnson@example.com](mailto:alice.johnson@example.com)",
+"status": "Active"
+},
+{
+"id": 102,
+"name": "Bob Smith",
+"department": "Marketing",
+"email": "[bob.smith@example.com](mailto:bob.smith@example.com)",
+"status": "Inactive"
+},
+{
+"id": 103,
+"name": "Charlie Brown",
+"department": "HR",
+"email": "[charlie.brown@example.com](mailto:charlie.brown@example.com)",
+"status": "Active"
+}
+],
+"projects": [
+{
+"project_id": 201,
+"name": "Website Redesign",
+"lead": "Alice Johnson",
+"status": "Ongoing"
+},
+{
+"project_id": 202,
+"name": "Social Media Campaign",
+"lead": "Bob Smith",
+"status": "Completed"
+}
+],
+"alerts": ["Low disk space", "System update required", "Unauthorized login attempt"]
+}

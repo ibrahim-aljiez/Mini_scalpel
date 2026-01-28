@@ -1,0 +1,127 @@
+Beginner's Guide to Python
+
+Introduction
+Python is a high-level, interpreted programming language known for its readability, simplicity, and versatility. It is widely used in web development, data analysis, artificial intelligence, automation, and more.
+
+Setting Up Python
+
+1. Download Python from python.org.
+2. Install Python and ensure you check the option "Add Python to PATH".
+3. Verify installation by opening a terminal/command prompt and running:
+   python --version
+
+Basic Python Concepts
+
+1. Variables and Data Types
+   name = "John"      # String
+   age = 25            # Integer
+   height = 5.9        # Float
+   is_student = True   # Boolean
+
+2. Printing to Console
+   print("Hello, World!")
+   print(f"Name: {name}, Age: {age}")
+
+3. Comments
+
+# This is a single-line comment
+
+"""
+This is a
+multi-line comment
+"""
+
+4. Operators
+
+# Arithmetic
+
+x = 5 + 3   # 8
+y = 10 / 2  # 5.0
+
+# Comparison
+
+x > y      # False
+x == 8     # True
+
+# Logical
+
+x > 3 and y < 10  # True
+
+5. Conditional Statements
+   if age >= 18:
+   print("Adult")
+   else:
+   print("Minor")
+
+6. Loops
+
+# For loop
+
+for i in range(5):
+print(i)
+
+# While loop
+
+count = 0
+while count < 5:
+print(count)
+count += 1
+
+7. Functions
+   def greet(name):
+   return f"Hello, {name}!"
+
+print(greet("Alice"))
+
+8. Lists, Tuples, and Dictionaries
+
+# List
+
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+
+# Tuple
+
+coordinates = (10, 20)
+
+# Dictionary
+
+person = {"name": "John", "age": 25}
+print(person["name"])
+
+9. Reading and Writing Files
+
+# Write to file
+
+with open("sample.txt", "w") as f:
+f.write("Hello Python")
+
+# Read from file
+
+with open("sample.txt", "r") as f:
+content = f.read()
+print(content)
+
+10. Handling Errors
+    try:
+    num = int(input("Enter a number: "))
+    except ValueError:
+    print("Invalid input!")
+
+Useful Tips for Beginners
+
+* Use meaningful variable names.
+* Always test small pieces of code first.
+* Keep code readable with proper indentation.
+* Learn to use Python's built-in documentation: help(function_name).
+
+Next Steps
+Once comfortable with the basics, explore:
+
+* Modules and Packages (import math, random)
+* Object-Oriented Programming
+* Working with Libraries like pandas, numpy, matplotlib
+* Web scraping and automation
+
+Author: Your Name
+Date: 2025-12-02
